@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  .image-wrapper {
+    position: relative;
+    text-align: center;
+}
+
+.actions {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.actions img {
+    width: 20px;
+    margin: 5px;
+}
